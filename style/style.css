@@ -1,7 +1,15 @@
+h1 {
+  font-family: George;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
-  background-color: #e3e3e3;
+  background-color: #bd8e8e;
 }
 
 /*# sourceMappingURL=style.css.map */
