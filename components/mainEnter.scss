@@ -1,0 +1,31 @@
+.entarance{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.entarance__button{
+    display: inline-block;
+    color: rgb(163, 140, 140);
+    text-decoration: none;
+    user-select: none;
+    padding: .7em 5em;
+    outline: none;
+    border: 1px solid;
+    border-radius: 80px;
+    transition: 0.2s;
+    width: 200px;
+    margin: 15px auto;
+    
+ 
+    
+}
+.entarance__button:hover { 
+    background: #a0a0a0a9;
+}
+
+.entarance__button:active { 
+    background: #FFFFFF;
+}

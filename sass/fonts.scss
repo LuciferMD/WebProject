@@ -1,7 +1,62 @@
+$fontFamGeor: George;
+$fontFamJosef:'Josefin Sans', sans-serif;
+
 h1{
-    font-family: George;
+    font-family: $fontFamGeor;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 58px;
+    margin: 10px;
+}
+
+h2{
+    font-family: $fontFamGeor;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 5px;
+}
+
+h3{
+    display: relative;
+    font-family: $fontFamJosef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 5px;
+}
+
+h4{
+    font-family:$fontFamJosef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h5{
+    font-family: $fontFamJosef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+h6{
+    font-family: $fontFamJosef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.primaryText{
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
 }

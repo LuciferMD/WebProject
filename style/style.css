@@ -4,12 +4,125 @@ h1 {
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
+  margin: 10px;
+}
+
+h2 {
+  font-family: George;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin: 5px;
+}
+
+h3 {
+  display: relative;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 5px;
+}
+
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h5 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.primaryText {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.bgGray {
+  background: #BDBDBD;
+}
+
+.bgGray2 {
+  background: #828282;
+}
+
+.bgGray3 {
+  background: #4F4F4F;
+}
+
+.bgLightGray {
+  background: #D6D6D6;
+}
+
+.bgHardGray {
+  background: #D6D6D6;
+}
+
+.bgWhite {
+  background: #FFFFFF;
+}
+
+.bgBlag {
+  background: #202020;
 }
 
 body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
-  background-color: #bd8e8e;
+  display: relative;
+  background-image: url("/img/bgMain.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.entarance {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.entarance__button {
+  display: inline-block;
+  color: #a38c8c;
+  text-decoration: none;
+  user-select: none;
+  padding: 0.7em 5em;
+  outline: none;
+  border: 1px solid;
+  border-radius: 80px;
+  transition: 0.2s;
+  width: 200px;
+  margin: 15px auto;
+}
+
+.entarance__button:hover {
+  background: #a0a0a0a9;
+}
+
+.entarance__button:active {
+  background: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
