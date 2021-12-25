@@ -1,3 +1,13 @@
+.mainEnter{
+    display: relative;
+    background-image: url("/img/bgMain.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+
 .entarance{
     position: absolute;
     left: 50%;
