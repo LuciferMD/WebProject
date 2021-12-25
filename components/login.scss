@@ -1,0 +1,32 @@
+.logBack{    
+    display: relative;
+    background-image: url("/img/bgMain.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+
+.login{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+ 
+}
+
+.login__preface{
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    text-align:left;
+   
+}
+
+.container__text{
+    color: black;
+    padding-bottom: 10px;
+}
