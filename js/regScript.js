@@ -123,5 +123,6 @@ form.addEventListener("submit", function(e) {
    checkPasswords(password, passwordConfirm))
    
    {
-  form.reset();}
+  form.reset();
+  document.location.href = "../pages/home.html";}
 });

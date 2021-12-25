@@ -1,0 +1,30 @@
+header, footer{
+    position: absolute;
+    background-color: rgb(159,181,143);
+    width: 100%;
+
+}
+header{
+    height: 60px;
+    top: 0px;
+}
+footer{
+    height:30px; 
+    bottom: 0px ;
+}
+
+.logo{
+    height: 100%;
+    margin:auto
+}
+.menu{
+    position: absolute;
+    right: 0px;
+    top: 1vh;
+}
+
+.menu__item{
+    position: relative;
+    bottom: 1vh;
+    margin-right: 3vw;
+}
