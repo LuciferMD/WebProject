@@ -423,7 +423,8 @@ html, body {
   }
 }
 @media (max-width: 750px) {
-  .part__mus div {
+  .part__mus__artist div,
+.part__mus div {
     margin-right: 25px;
     width: 110px;
     height: 110px;
@@ -436,12 +437,13 @@ html, body {
     grid-gap: 10px;
   }
 }
-@media (max-width: 610px) {
+@media (max-width: 720px) {
   .item4 {
     display: none;
   }
 
-  .part__mus div {
+  .part__mus__artist div,
+.part__mus div {
     margin-right: 20px;
     width: 100px;
     height: 100px;
