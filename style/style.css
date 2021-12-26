@@ -76,7 +76,7 @@ h6 {
 }
 
 .bgHardGray {
-  background: #D6D6D6;
+  background: #333333;
 }
 
 .bgWhite {
@@ -89,6 +89,14 @@ h6 {
 
 .blue {
   color: #2D9CDB;
+}
+
+.Gray2 {
+  color: #828282;
+}
+
+.blag {
+  color: #202020;
 }
 
 :root {
@@ -163,6 +171,10 @@ html, body {
   border-radius: 5px;
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
   width: 450px;
+}
+
+.registration__container h2 {
+  text-align: center;
 }
 
 .form {
@@ -318,7 +330,7 @@ html, body {
 .login__preface {
   position: absolute;
   left: 50%;
-  top: 17%;
+  top: 12%;
   transform: translate(-50%, -50%);
   text-align: left;
 }
@@ -597,6 +609,62 @@ footer {
   .active__record h3 {
     font-size: 15px;
   }
+}
+.container__profile {
+  position: absolute;
+  display: inline-flex;
+  margin: 60px 5vw;
+  width: 89vw;
+}
+
+.container__profile img {
+  height: 14vw;
+  width: 14vw;
+  border-radius: 50%;
+  margin: 2vh 4vw;
+}
+
+.container__profile h6 {
+  margin-left: 2vw;
+  margin-bottom: 3vh;
+}
+
+.profile__left_column {
+  height: 100vh;
+  width: 22vw;
+}
+
+.profile__right_column {
+  width: 80vw;
+}
+
+.right_column__info {
+  margin: 3vw 4vw;
+}
+
+.right_column__info h2 {
+  margin-bottom: 10vw;
+}
+
+.info__stroka {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 25px;
+  border: 0px;
+  border-bottom: 2px solid #a7a7a7;
+  margin-bottom: 2vh;
+}
+
+.info__stroka_1 {
+  margin-top: 5px;
+}
+
+.info__stroka_2 {
+  margin-top: 5px;
+}
+
+.profile__right_column button {
+  width: 20vw;
 }
 
 /*# sourceMappingURL=style.css.map */
