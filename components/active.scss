@@ -1,0 +1,60 @@
+.container__active{
+    position: absolute;
+    margin: 10vh 15vw;
+    width:70vw;
+    
+}
+
+.active__record{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 70vw;
+    border-radius: 50px 10px 10px 50px;
+    margin-top: 5vh;
+}
+
+.active__record img{
+    height: 6vw;
+    width: 6vw;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+
+    .container__active{
+  
+        margin: 10vh 10vw;
+        
+    }
+
+    
+    .active__record{     
+      width: 80vw;    
+    }
+    .active__record img{
+        height: 5vw;
+        width: 5vw;
+        margin: 4px;
+        border-radius: 50%;
+    }
+
+    .active__record h3{
+    font-size: 20px;
+
+    }
+  
+  }
+
+  @media screen and (max-width: 600px) {
+
+    
+    .active__record h3{
+    font-size: 15px;
+
+    }
+  
+  }
+  
+  

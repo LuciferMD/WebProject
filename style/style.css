@@ -18,7 +18,6 @@ h2 {
 }
 
 h3 {
-  display: relative;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -86,6 +85,10 @@ h6 {
 
 .bgBlag {
   background: #202020;
+}
+
+.blue {
+  color: #2D9CDB;
 }
 
 :root {
@@ -489,7 +492,7 @@ footer {
 
 .content__search__part {
   position: absolute;
-  margin-left: 20vw;
+  margin-left: 18vw;
   width: 100%;
   top: 80px;
 }
@@ -546,6 +549,53 @@ footer {
 
   .content__search__part {
     margin-left: 13vw;
+  }
+}
+.container__active {
+  position: absolute;
+  margin: 10vh 15vw;
+  width: 70vw;
+}
+
+.active__record {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 70vw;
+  border-radius: 50px 10px 10px 50px;
+  margin-top: 5vh;
+}
+
+.active__record img {
+  height: 6vw;
+  width: 6vw;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .container__active {
+    margin: 10vh 10vw;
+  }
+
+  .active__record {
+    width: 80vw;
+  }
+
+  .active__record img {
+    height: 5vw;
+    width: 5vw;
+    margin: 4px;
+    border-radius: 50%;
+  }
+
+  .active__record h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .active__record h3 {
+    font-size: 15px;
   }
 }
 
